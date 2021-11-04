@@ -14,6 +14,14 @@ function startgame()
     rendergame()
 }
 
+let player={
+    name:"logesh",
+    cash:2000
+}
+
+let playerEl=document.getElementById("player-el")
+
+playerEl.textContent = player.name+": $"+player.cash
 
 
 function getRandomNum()
@@ -60,16 +68,14 @@ getEl.textContent=message
 }
 
 
-
-
 function newcard()
 {
+    if(isAlive===true && hasBlackjack===false){
     let card = getRandomNum()
     sum=sum+card
     cards.push(card)
     rendergame()
+    }
 }
-    
-   
     
 
