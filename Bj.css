@@ -5,7 +5,7 @@ h1{
 }
 body{
     text-align: center;
-    background-image: url("/cashimage/green.jpg");
+    background-image: url("cashimage/green.jpg");
     background-size: cover;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
